@@ -5,7 +5,7 @@ git checkout --orphan latest_branch
 # Add all files to staging
 git add -A
 # Commit staged files with a message
-git commit -m "Keep only the latest commit"
+git commit -m "keep only the latest commit"
 # Delete the current main branch
 git branch -D main
 # Rename the latest branch to main
